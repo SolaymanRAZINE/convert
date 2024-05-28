@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.converter {
+    margin-bottom: 100px;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 30px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 25px;
+
+}
+
+button {
+    padding: 20px 30px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#resultEuro, #resultDollar {
+    margin-top: 20px;
+    font-size: 30px;
+    color: #333;
+}
