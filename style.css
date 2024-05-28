@@ -3,7 +3,6 @@ body {
     background-color: #f4f4f4;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 100vh;
     margin: 0;
 }
@@ -13,25 +12,27 @@ body {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 800px;
+    width: 100%;
     text-align: center;
 }
 
 h1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    font-size: 25px;
+
 }
 
 .converter {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 input {
-    width: calc(100% - 22px);
-    padding: 30px;
+    width: 80%;
+    padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 3px;
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -54,4 +55,5 @@ button:hover {
     margin-top: 20px;
     font-size: 30px;
     color: #333;
+    font-weight: bold;
 }
